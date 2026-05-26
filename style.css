@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid black;
+  height: 500px;
+  width: 600px;
+}
+
+.font {
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.player-ux {
+  text-align: center;
+  border: 3px solid black;
+  height: 300px;
+  width: 200px;
+}
+
+.emoji-size {
+  font-size: 150px;
+  margin-bottom: 13px;
+}
+
+.btn-cls {
+  padding: 9px 75px;
+  border-radius: 20px;
+  background: none;
+  text-shadow: 1.5px 1.5px 1px black;
+  color: red;
+  font-size: 26px;
+}
