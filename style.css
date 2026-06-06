@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(skyblue, white);
 }
 
 .main-container {
@@ -51,6 +52,7 @@ body {
   margin-top: 8px;
   font-size: 135px;
   margin-bottom: 13px;
+  background: whitesmoke;
 }
 
 .btn-cls {
