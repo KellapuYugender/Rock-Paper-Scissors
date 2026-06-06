@@ -6,17 +6,36 @@
     <link rel="stylesheet" href="style.css" />
     <title>Ro-Pa-Si</title>
   </head>
-  <body>
+  <body class="font">
     <div class="main-container">
-      <div class="player-ux">
-        <p class="emoji-size" id="emoji-one">&#129704;</p>
-        <button class="btn-cls font" id="player-one">P1</button>
+      <!-- Heading -->
+      <h1 class="color-gold text-shadow">ROCK-PAPER-SCISSOR</h1>
+
+      <!-- Middile -->
+      <div class="mid-div">
+        <!-- Player-1 -->
+        <div class="player-ux">
+          <h1 class="color-red text-shadow">Player-1</h1>
+          <p class="emoji-size" id="emoji-one"></p>
+          <h2 class="color-lg text-shadow">POINTS</h2>
+          <h3 id="point-1">0</h3>
+          <button class="btn-cls font text-shadow" id="player-one">P1</button>
+        </div>
+
+        <!-- VS -->
+        <h1>vs</h1>
+
+        <!-- Player-2  -->
+        <div class="player-ux">
+          <h1 class="color-blue text-shadow">Player-2</h1>
+          <p class="emoji-size" id="emoji-two"></p>
+          <h2 class="color-lg text-shadow">POINTS</h2>
+          <h3 id="point-2">0</h3>
+          <button class="btn-cls font text-shadow" id="player-two">P2</button>
+        </div>
       </div>
-      <h1>vs</h1>
-      <div class="player-ux">
-        <p class="emoji-size" id="emoji-two">&#129704;</p>
-        <button class="btn-cls font" id="player-two">P2</button>
-      </div>
+      <!-- Result -->
+      <button class="btn-cls font text-shadow" id="reset">Reset</button>
     </div>
   </body>
   <script src="index.js"></script>
