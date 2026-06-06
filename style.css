@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(skyblue, white);
+  background: linear-gradient(steelblue, rgb(55, 150, 187), white);
 }
 
 .main-container {
@@ -17,10 +17,14 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border: 5px double black;
+  border: 5px solid black;
   border-radius: 20px;
   height: 650px;
   width: 700px;
+  background-image: url(background2.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .mid-div {
   display: flex;
@@ -38,10 +42,11 @@ body {
 
 .player-ux {
   text-align: center;
-  border: 5px double black;
+  border: 5px solid black;
   border-radius: 20px;
   height: 370px;
   width: 200px;
+  background: gold;
 }
 
 .emoji-size {
@@ -67,13 +72,15 @@ body {
 }
 
 .btn-cls:hover {
-  /* box-shadow: 0px 0px 5px 1px rgb(101, 247, 101); */
-  border: 2px solid black;
+  border: 2px solid white;
   background: limegreen;
   color: white;
 }
 .color-red {
   color: red;
+}
+.color-white {
+  color: white;
 }
 .color-blue {
   color: blue;
